@@ -1,0 +1,139 @@
+.gestion{
+    width: 50%; 
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    margin-bottom: 10px;
+}
+
+.fondo{
+    background: url(img/fondo.jpg);
+}
+
+.ord{
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+
+.divisiones {
+    width: 224px; 
+    height: 104px;
+    padding-left: 10px;
+    margin: 8px;
+    color: white;
+    
+}
+
+.fecha{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.selec{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.digitar{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.precio{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.radio{
+    margin-top: 10px;
+    width: 30px;
+}
+
+.chekear{
+    margin-top: 10px;
+    width: 30px;
+}
+
+.input-file {
+    display: none;
+}
+
+.boton-personalizado {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 172px;
+    height: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.boton-personalizado:hover {
+    background-color: black;
+    color: white;
+}
+
+.rango{
+    accent-color: blue;
+    
+}
+
+#color{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.texto{
+    width: 200px;
+    height: 80px;
+    
+}
+
+.texto:focus{
+    border: 0;
+    outline: none;
+}
+
+h2{
+    color: black;
+}
+.bo{
+    width:200px;
+    height:70px;
+    background: linear-gradient(to left top, #c32c71 50%, #b33771 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+.orga{
+    background-color: gray;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
