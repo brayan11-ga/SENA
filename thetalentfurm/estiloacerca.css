@@ -1,0 +1,60 @@
+.principalacerca{
+    background: linear-gradient(80deg, black, gray, white);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fondo;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fondo{
+    0%{
+        background: linear-gradient(80deg, black, gray, white);
+
+    }
+
+    100%{
+        background: linear-gradient(80deg, white, gray, black);
+
+    }
+}
+
+.texto{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center; 
+}
+
+
+.Nombre{
+    color: blueviolet;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.Direccion{
+    color:black;
+    font-size: 25px;
+    font-family: fantasy;
+    padding: 10px;
+}
+
+.Telefono{
+    color:black;
+    font-size: 25px;
+    font-family:fantasy;
+    padding: 5px;
+}
+
+
+.Correo{
+    color: black;
+    font-size: 25px;
+    font-family:fantasy;
+    padding: 5px;
+}
